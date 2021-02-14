@@ -4,7 +4,7 @@ import {
   Redirect,
   Route,
 } from "react-router-dom";
-import { HomeView, MoviesView, SeriesView } from "./components";
+import { HomeView, MoviesView, SeriesView, Layout } from "./components";
 import "./App.css";
 
 function App() {
@@ -13,13 +13,13 @@ function App() {
       <Switch>
         <Redirect exact from="/" to="/home" />
         <Route exact path="/home">
-          <HomeView />
+          <Layout component={HomeView} />
         </Route>
         <Route exact path="/movies">
-          <MoviesView />
+          <Layout component={MoviesView} />
         </Route>
         <Route exact path="/series">
-          <SeriesView />
+          <Layout component={SeriesView} />
         </Route>
       </Switch>
     </Router>
