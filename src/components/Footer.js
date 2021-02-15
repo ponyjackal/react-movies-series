@@ -26,7 +26,7 @@ const Footer = () => {
           <p>Manage Account</p>
         </div>
         <div>
-          <p>Copyright © 2016 DEMO Streaming. All Rights Reserved</p>
+          <p>Copyright © 2016 DEMO Streaming. All Rights Reserved.</p>
         </div>
       </div>
       <div className={cStyles.footBottom}>

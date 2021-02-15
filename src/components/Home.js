@@ -7,13 +7,7 @@ const cStyles = {
 };
 
 const Home = () => {
-  return (
-    <div>
-      <div className={cStyles.homeHeader}>
-        <p className={cStyles.subTitle}>Popular Titles</p>
-      </div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Home;

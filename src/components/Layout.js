@@ -7,10 +7,11 @@ const cStyles = {
   main: "flex-grow",
 };
 const Layout = (props) => {
-  const { component: Component } = props;
+  const { component: Component, subTitle } = props;
+
   return (
     <div className={cStyles.appContainer}>
-      <Header />
+      <Header subTitle={subTitle} />
       <div className={cStyles.main}>
         <Component />
       </div>

@@ -14,13 +14,13 @@ function App() {
       <Switch>
         <Redirect exact from="/" to="/home" />
         <Route exact path="/home">
-          <Layout component={HomeView} />
+          <Layout component={HomeView} subTitle="Popular Titles" />
         </Route>
         <Route exact path="/movies">
-          <Layout component={MoviesView} />
+          <Layout component={MoviesView} subTitle="Popular Movies" />
         </Route>
         <Route exact path="/series">
-          <Layout component={SeriesView} />
+          <Layout component={SeriesView} subTitle="Popular Series" />
         </Route>
       </Switch>
     </Router>
