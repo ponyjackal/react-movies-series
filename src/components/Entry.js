@@ -1,12 +1,8 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { cStyles } from "../styles/styles";
 
-const cStyles = {
-  entry: "flex flex-col items-center",
-  image: "",
-  title: "",
-};
 const Entry = ({ title, url }) => {
   return (
     <div className={cStyles.entry}>

@@ -1,11 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { cStyles } from "../styles/styles";
 
-const cStyles = {
-  appContainer: "flex flex-col min-h-screen",
-  main: "flex-grow",
-};
 const Layout = (props) => {
   const { component: Component, subTitle } = props;
 
