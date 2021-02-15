@@ -29,7 +29,7 @@ const Movies = () => {
           .filter((movie) => movie.releaseYear >= 2010)
           .filter((movie) => movie.programType === "movie")
           .sort((movieA, movieB) => movieA.title > movieB.title)
-          .slice(0, 20)
+          .slice(0, 21)
           .map((movie) => (
             <Entry
               key={movie.title}

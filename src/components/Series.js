@@ -29,7 +29,7 @@ const Series = () => {
           .filter((serie) => serie.releaseYear >= 2010)
           .filter((serie) => serie.programType === "series")
           .sort((serieA, serieB) => serieA.title > serieB.title)
-          .slice(0, 20)
+          .slice(0, 21)
           .map((serie) => (
             <Entry
               key={serie.title}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const cStyles = {
   footer:
@@ -18,12 +19,14 @@ const Footer = () => {
     <div className={cStyles.footer}>
       <div className={cStyles.footerTop}>
         <div className={cStyles.menu}>
-          <p className={cStyles.menuItem}>Home</p>
-          <p className={cStyles.menuItem}>Terms and Conditions</p>
-          <p className={cStyles.menuItem}>Privacy Policy</p>
-          <p className={cStyles.menuItem}>Collection Statement</p>
-          <p className={cStyles.menuItem}>Help</p>
-          <p>Manage Account</p>
+          <Link to="/home" className={cStyles.menuItem}>
+            Home
+          </Link>
+          <Link className={cStyles.menuItem}>Terms and Conditions</Link>
+          <Link className={cStyles.menuItem}>Privacy Policy</Link>
+          <Link className={cStyles.menuItem}>Collection Statement</Link>
+          <Link className={cStyles.menuItem}>Help</Link>
+          <Link>Manage Account</Link>
         </div>
         <div>
           <p>Copyright © 2016 DEMO Streaming. All Rights Reserved.</p>

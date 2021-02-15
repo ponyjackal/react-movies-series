@@ -1,7 +1,7 @@
 import React from "react";
 
 const cStyles = {
-  entry: "flex flex-row",
+  entry: "flex flex-col items-center",
   image: "",
   title: "",
 };
