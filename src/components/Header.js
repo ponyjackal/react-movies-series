@@ -1,8 +1,9 @@
 import React from "react";
 
 const cStyles = {
-  header: "flex flex-row justify-between bg-blue-600 py-5 px-10 shadow-xl",
-  headerTitle: "font-sans font-bold text-4xl antialiased text-white mx-56",
+  header:
+    "flex flex-row justify-between bg-blue-600 py-5 pl-56 pr-10 shadow-xl",
+  headerTitle: "font-sans font-bold text-4xl antialiased text-white",
   headerLeft: "flex flex-row items-center space-x-4",
   login: "font-sans text-xl text-white",
   freeTrial:
