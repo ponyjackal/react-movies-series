@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { HomeView, MoviesView, SeriesView, Layout } from "./components";
-import "./styles/tailwind.dist.css";
 import "./App.css";
 
 const queryClient = new QueryClient();

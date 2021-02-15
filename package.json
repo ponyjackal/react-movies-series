@@ -8,9 +8,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "autoprefixer": "^10.2.4",
     "json-server": "^0.16.3",
-    "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
     "react": "^17.0.1",
@@ -21,7 +19,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
-    "tailwindcss": "^2.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -52,6 +49,9 @@
     ]
   },
   "devDependencies": {
-    "stylelint-config-recommended": "^3.0.0"
+    "autoprefixer": "9",
+    "postcss": "7",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "item-placeholder": "url('assets/placeholder.png')",
+        placeholder: "url('../placeholder.png')",
       }),
     },
   },
@@ -12,5 +12,4 @@ module.exports = {
     extend: { backgroundImage: ["hover", "focus"] },
   },
   plugins: [],
-  corePlugins: { backgroundImage: false },
 };

@@ -4192,6 +4192,126 @@ video {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.bg-none {
+  background-image: none;
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-bl {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-placeholder {
+  background-image: url('../placeholder.png');
+}
+
+.hover\:bg-none:hover {
+  background-image: none;
+}
+
+.hover\:bg-gradient-to-t:hover {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-tr:hover {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-br:hover {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-bl:hover {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-l:hover {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-tl:hover {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.hover\:bg-placeholder:hover {
+  background-image: url('../placeholder.png');
+}
+
+.focus\:bg-none:focus {
+  background-image: none;
+}
+
+.focus\:bg-gradient-to-t:focus {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-tr:focus {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-r:focus {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-br:focus {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-b:focus {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-bl:focus {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-l:focus {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.focus\:bg-gradient-to-tl:focus {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.focus\:bg-placeholder:focus {
+  background-image: url('../placeholder.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -34724,6 +34844,126 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-none {
+    background-image: none;
+  }
+
+  .sm\:bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-bl {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-placeholder {
+    background-image: url('../placeholder.png');
+  }
+
+  .sm\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .sm\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:hover\:bg-placeholder:hover {
+    background-image: url('../placeholder.png');
+  }
+
+  .sm\:focus\:bg-none:focus {
+    background-image: none;
+  }
+
+  .sm\:focus\:bg-gradient-to-t:focus {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-tr:focus {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-r:focus {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-br:focus {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-b:focus {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-bl:focus {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-l:focus {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-gradient-to-tl:focus {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:focus\:bg-placeholder:focus {
+    background-image: url('../placeholder.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -65211,6 +65451,126 @@ video {
   .md\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-bl {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-placeholder {
+    background-image: url('../placeholder.png');
+  }
+
+  .md\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .md\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-placeholder:hover {
+    background-image: url('../placeholder.png');
+  }
+
+  .md\:focus\:bg-none:focus {
+    background-image: none;
+  }
+
+  .md\:focus\:bg-gradient-to-t:focus {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-tr:focus {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-r:focus {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-br:focus {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-b:focus {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-bl:focus {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-l:focus {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-gradient-to-tl:focus {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:focus\:bg-placeholder:focus {
+    background-image: url('../placeholder.png');
   }
 
   .md\:from-transparent {
@@ -95702,6 +96062,126 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-none {
+    background-image: none;
+  }
+
+  .lg\:bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-bl {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-placeholder {
+    background-image: url('../placeholder.png');
+  }
+
+  .lg\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .lg\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:hover\:bg-placeholder:hover {
+    background-image: url('../placeholder.png');
+  }
+
+  .lg\:focus\:bg-none:focus {
+    background-image: none;
+  }
+
+  .lg\:focus\:bg-gradient-to-t:focus {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-tr:focus {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-r:focus {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-br:focus {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-b:focus {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-bl:focus {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-l:focus {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-gradient-to-tl:focus {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:focus\:bg-placeholder:focus {
+    background-image: url('../placeholder.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -126191,6 +126671,126 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-none {
+    background-image: none;
+  }
+
+  .xl\:bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-bl {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-placeholder {
+    background-image: url('../placeholder.png');
+  }
+
+  .xl\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .xl\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:hover\:bg-placeholder:hover {
+    background-image: url('../placeholder.png');
+  }
+
+  .xl\:focus\:bg-none:focus {
+    background-image: none;
+  }
+
+  .xl\:focus\:bg-gradient-to-t:focus {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-tr:focus {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-r:focus {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-br:focus {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-b:focus {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-bl:focus {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-l:focus {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-gradient-to-tl:focus {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:focus\:bg-placeholder:focus {
+    background-image: url('../placeholder.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -156678,6 +157278,126 @@ video {
   .\32xl\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-none {
+    background-image: none;
+  }
+
+  .\32xl\:bg-gradient-to-t {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-bl {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-gradient-to-tl {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-placeholder {
+    background-image: url('../placeholder.png');
+  }
+
+  .\32xl\:hover\:bg-none:hover {
+    background-image: none;
+  }
+
+  .\32xl\:hover\:bg-gradient-to-t:hover {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-r:hover {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-br:hover {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-bl:hover {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-l:hover {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-gradient-to-tl:hover {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:hover\:bg-placeholder:hover {
+    background-image: url('../placeholder.png');
+  }
+
+  .\32xl\:focus\:bg-none:focus {
+    background-image: none;
+  }
+
+  .\32xl\:focus\:bg-gradient-to-t:focus {
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-tr:focus {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-r:focus {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-br:focus {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-b:focus {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-bl:focus {
+    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-l:focus {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-gradient-to-tl:focus {
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:focus\:bg-placeholder:focus {
+    background-image: url('../placeholder.png');
   }
 
   .\32xl\:from-transparent {
