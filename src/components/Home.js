@@ -1,13 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const cStyles = {
-  homeHeader:
-    "flex flex-row justify-between bg-gray-700 py-3 pl-56 pr-10 shadow-xl",
-  subTitle: "font-sans font-bold text-2xl antialiased text-white",
+  home: "flex flex-row justify-start items-center py-5 pl-56 pr-10 space-x-10",
+  link: "flex flex-col justify-start items-center",
+  item: "bg-item-placeholder px-10 py-20",
 };
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <div className={cStyles.home}>
+      <div className={cStyles.link}>
+        <Link className={cStyles.item} to="/series">
+          SERIES
+        </Link>
+        Popular Series
+      </div>
+      <div className={cStyles.link}>
+        <Link className={cStyles.item} to="/movies">
+          MOVIES
+        </Link>
+        Popular Movies
+      </div>
+    </div>
+  );
 };
 
 export default Home;
