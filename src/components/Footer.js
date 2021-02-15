@@ -11,7 +11,8 @@ const cStyles = {
     "flex flex-col justify-start item-start space-y-5 md:flex-row md:justify-between md:items-center md:space-y-0 py-5",
   socialContainer: "flex felx-row justify-start space-x-4",
   socialIcon: "w-7 h-7 md:w-9 md:h-9 lg:w-10 lg:h-10",
-  storeContainer: "flex felx-row justify-end items-center space-x-4",
+  storeContainer:
+    "flex felx-row justify-start md:justify-end items-center space-x-4",
   storeIcon: "h-7 md:h-9 lg:h-10",
 };
 
