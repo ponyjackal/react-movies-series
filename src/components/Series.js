@@ -3,7 +3,8 @@ import useEntries from "../libs/useEntries";
 import Entry from "./Entry";
 
 const cStyles = {
-  seriesContainer: "py-5 pl-56 pr-10 grid grid-cols-7 gap-4",
+  seriesContainer:
+    "py-5 pl-10 md:pl-36 lg:pl-56 pr-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4",
   loading: "font-sans text-lg text-black",
 };
 const Series = () => {
