@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import { HomeView, MoviesView, SeriesView, Layout } from "./components";
+import "./styles/tailwind.dist.css";
 import "./App.css";
 
 function App() {
