@@ -1,5 +1,6 @@
 import React from "react";
 import useEntries from "../libs/useEntries";
+import Entry from "./Entry";
 
 const cStyles = {
   seriesContainer: "py-5 pl-56 pr-10 grid grid-cols-7 gap-4",
@@ -24,9 +25,18 @@ const Series = () => {
   return (
     <div className={cStyles.seriesContainer}>
       {data &&
-        data.map((serie) => {
-          return <div>{serie.title}</div>;
-        })}
+        data
+          .filter((serie) => serie.releaseYear >= 2010)
+          .filter((serie) => serie.programType === "series")
+          .sort((serieA, serieB) => serieA.title > serieB.title)
+          .slice(0, 20)
+          .map((serie) => (
+            <Entry
+              key={serie.title}
+              title={serie.title}
+              url={serie.images["Poster Art"].url}
+            />
+          ))}
     </div>
   );
 };

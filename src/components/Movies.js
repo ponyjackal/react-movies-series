@@ -1,5 +1,6 @@
 import React from "react";
 import useEntries from "../libs/useEntries";
+import Entry from "./Entry";
 
 const cStyles = {
   moviesContainer: "py-5 pl-56 pr-10 grid grid-cols-7 gap-4",
@@ -24,9 +25,18 @@ const Movies = () => {
   return (
     <div className={cStyles.moviesContainer}>
       {data &&
-        data.map((movie) => {
-          return <div>{movie.title}</div>;
-        })}
+        data
+          .filter((movie) => movie.releaseYear >= 2010)
+          .filter((movie) => movie.programType === "movie")
+          .sort((movieA, movieB) => movieA.title > movieB.title)
+          .slice(0, 20)
+          .map((movie) => (
+            <Entry
+              key={movie.title}
+              title={movie.title}
+              url={movie.images["Poster Art"].url}
+            />
+          ))}
     </div>
   );
 };
