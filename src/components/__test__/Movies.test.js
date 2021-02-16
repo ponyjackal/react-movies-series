@@ -1,6 +1,5 @@
 import React from "react";
-import { render, screen, cleanup } from "@testing-library/react";
-import { MemoryRouter } from "react-router-dom";
+import { render, screen } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
 import userEvent from "@testing-library/user-event";
 import { createMemoryHistory } from "history";

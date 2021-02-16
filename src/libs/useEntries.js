@@ -1,5 +1,4 @@
 import { useQuery } from "react-query";
-import { data } from "./data";
 
 const entryURL = "http://localhost:8000/entries";
 export const fetchEntries = () => {
