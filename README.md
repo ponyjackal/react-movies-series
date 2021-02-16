@@ -10,6 +10,7 @@ Render movies and series in React
 - react-query for data fetching and caching
 - Tailwindcss for styles
 - msw and json-server for mock data and fake api
+- image-lazy-loading for image lazy loading
 
 ## How to Run
 
