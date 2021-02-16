@@ -3,15 +3,15 @@ export const cStyles = {
   main: "flex-grow",
   header: "flex flex-col",
   headerTop:
-    "flex flex-row justify-between bg-blue-600 py-5 pl-10 md:pl-36 lg:pl-56 pr-10 shadow-2xl",
+    "flex flex-row justify-between bg-blue-600 py-5 pl-10 md:pl-36 lg:pl-56 pr-10 shadow-header z-10",
   headerTitle:
-    "font-bold text-xl md:text-2xl lg:text-4xl antialiased text-white",
+    "font-black text-xl md:text-2xl lg:text-4xl antialiased text-white text-shadow-title",
   headerLeft: "flex flex-row items-center space-x-4",
   login: "text-base md:text-lg lg:text-xl text-white",
   freeTrial:
-    "text-base md:text-lg lg:text-xl text-white bg-gray-800 px-2 py-1 hover:bg-gray-700 shadow-2xl",
+    "text-base md:text-lg lg:text-xl text-white bg-gray-800 px-2 py-1 hover:bg-gray-700",
   headerBottom:
-    "flex flex-row justify-between bg-gray-700 py-3 pr-10 pl-10 md:pl-36 lg:pl-56 shadow-2xl",
+    "flex flex-row justify-between bg-gray-700 py-3 pr-10 pl-10 md:pl-36 lg:pl-56 shadow-header z-0",
   subTitle: "font-bold text-lg md:text-1xl lg:text-2xl antialiased text-white",
   footer:
     "flex flex-col justify-between bg-gray-900 text-gray-300 py-10 pl-10 md:pl-36 lg:pl-56 pr-10 space-y-10",
