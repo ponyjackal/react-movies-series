@@ -33,3 +33,5 @@ This will run stub api on your local with port:8000
 This will run all test cases
 
 ## Snapshot
+
+![screenshot](./screenshot.png)
