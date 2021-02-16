@@ -17,8 +17,8 @@ export const cStyles = {
     "flex flex-col justify-between bg-gray-900 text-gray-300 py-10 pl-10 md:pl-36 lg:pl-56 pr-10 space-y-10",
   footerTop: "flex flex-col justify-between space-y-3",
   menu:
-    "grid grid-cols-3 md:flex md:flex-row justify-start md:items-center space-x-4",
-  menuItem: "border-r-2 pr-4 border-gray-300",
+    "grid grid-cols-1 space-y-2 lg:flex lg:flex-row justify-start lg:items-center lg:space-x-4 lg:space-y-0",
+  menuItem: "pr-4 lg:border-r-2 lg:border-gray-300",
   footBottom:
     "flex flex-col justify-start item-start space-y-5 md:flex-row md:justify-between md:items-center md:space-y-0 py-5",
   socialContainer: "flex felx-row justify-start space-x-4",
