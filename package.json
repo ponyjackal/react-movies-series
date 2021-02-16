@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco build && mv build dist",
     "test": "craco test",
     "eject": "react-scripts eject",
     "stubapi": "json-server ./sample.json --port 8000",

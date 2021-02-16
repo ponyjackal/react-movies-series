@@ -6,13 +6,10 @@ Render movies and series in React
 
 ## Libraries used
 
-### react-router-dom for router in react
-
-### react-query for data fetching and caching
-
-### Tailwindcss for styles
-
-### msw and json-server for mock data and fake api
+- react-router-dom for router in react
+- react-query for data fetching and caching
+- Tailwindcss for styles
+- msw and json-server for mock data and fake api
 
 ## How to Run
 
@@ -31,6 +28,10 @@ This will run stub api on your local with port:8000
 ### npm run test / yarn run test
 
 This will run all test cases
+
+## How to build
+
+### npm run build / yarn run build
 
 ## Snapshot
 
