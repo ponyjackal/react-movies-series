@@ -32,6 +32,7 @@ const Series = () => {
               key={serie.title}
               title={serie.title}
               url={serie.images["Poster Art"].url}
+              data-testid="entry"
             />
           ))}
     </div>

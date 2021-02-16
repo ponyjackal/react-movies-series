@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { worker } from "./mocks/browser";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+
+// if (process.env.NODE_ENV === "development") {
+//   worker.start();
+// }
 
 ReactDOM.render(
   <React.StrictMode>

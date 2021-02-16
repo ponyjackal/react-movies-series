@@ -6,7 +6,12 @@ import { cStyles } from "../styles/styles";
 const Entry = ({ title, url }) => {
   return (
     <div className={cStyles.entry}>
-      <LazyLoadImage className={cStyles.image} effect="blur" src={url} alt="" />
+      <LazyLoadImage
+        className={cStyles.image}
+        effect="blur"
+        src={url}
+        alt="entry"
+      />
       <p className={cStyles.title}>{title}</p>
     </div>
   );

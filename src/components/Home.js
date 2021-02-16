@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <div className={cStyles.home}>
       <div className={cStyles.link}>
-        <Link className={cStyles.item} to="/series">
+        <Link className={cStyles.item} to="/series" data-testid="series">
           SERIES
         </Link>
         Popular Series
       </div>
       <div className={cStyles.link}>
-        <Link className={cStyles.item} to="/movies">
+        <Link className={cStyles.item} to="/movies" data-testid="movies">
           MOVIES
         </Link>
         Popular Movies

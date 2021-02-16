@@ -2,18 +2,18 @@ import { useQuery } from "react-query";
 import { data } from "./data";
 
 const entryURL = "http://localhost:8000/entries";
-// export const fetchEntries = () => {
-//   return fetch(entryURL)
-//     .then((res) => res.json())
-//     .then((res) => res);
-// };
+export const fetchEntries = () => {
+  return fetch(entryURL)
+    .then((res) => res.json())
+    .then((res) => res);
+};
 
-export const fetchEntries = () =>
-  new Promise((resolve, reject) => {
-    return setTimeout(() => {
-      resolve(data.entries);
-    }, 3000);
-  });
+// export const fetchEntries = () =>
+//   new Promise((resolve, reject) => {
+//     return setTimeout(() => {
+//       resolve(data.entries);
+//     }, 3000);
+//   });
 
 const useEntries = () => {
   return useQuery("fetchEntries", fetchEntries);
