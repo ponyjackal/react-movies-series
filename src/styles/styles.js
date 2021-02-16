@@ -1,19 +1,18 @@
 export const cStyles = {
-  appContainer: "flex flex-col min-h-screen",
+  appContainer: "flex flex-col min-h-screen font-raleway",
   main: "flex-grow",
   header: "flex flex-col",
   headerTop:
     "flex flex-row justify-between bg-blue-600 py-5 pl-10 md:pl-36 lg:pl-56 pr-10 shadow-2xl",
   headerTitle:
-    "font-sans font-bold text-xl md:text-2xl lg:text-4xl antialiased text-white",
+    "font-bold text-xl md:text-2xl lg:text-4xl antialiased text-white",
   headerLeft: "flex flex-row items-center space-x-4",
-  login: "font-sans text-base md:text-lg lg:text-xl text-white",
+  login: "text-base md:text-lg lg:text-xl text-white",
   freeTrial:
-    "font-sans text-base md:text-lg lg:text-xl text-white bg-gray-800 px-2 py-1 hover:bg-gray-700 shadow-2xl",
+    "text-base md:text-lg lg:text-xl text-white bg-gray-800 px-2 py-1 hover:bg-gray-700 shadow-2xl",
   headerBottom:
     "flex flex-row justify-between bg-gray-700 py-3 pr-10 pl-10 md:pl-36 lg:pl-56 shadow-2xl",
-  subTitle:
-    "font-sans font-bold text-lg md:text-1xl lg:text-2xl antialiased text-white",
+  subTitle: "font-bold text-lg md:text-1xl lg:text-2xl antialiased text-white",
   footer:
     "flex flex-col justify-between bg-gray-900 text-gray-300 py-10 pl-10 md:pl-36 lg:pl-56 pr-10 space-y-10",
   footerTop: "flex flex-col justify-between space-y-3",
@@ -29,7 +28,7 @@ export const cStyles = {
   storeIcon: "h-7 md:h-9 lg:h-10",
   entryContainer:
     "py-5 pl-10 md:pl-36 lg:pl-56 pr-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4",
-  loading: "font-sans text-lg text-black",
+  loading: "text-lg text-black",
   entry: "flex flex-col items-center",
   image: "",
   title: "",

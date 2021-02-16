@@ -11310,6 +11310,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-raleway {
+  font-family: Raleway, sans-serif;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -31201,6 +31205,8 @@ video {
   animation: bounce 1s infinite;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -41960,6 +41966,10 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-raleway {
+    font-family: Raleway, sans-serif;
   }
 
   .sm\:font-thin {
@@ -72571,6 +72581,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-raleway {
+    font-family: Raleway, sans-serif;
+  }
+
   .md\:font-thin {
     font-weight: 100;
   }
@@ -103178,6 +103192,10 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-raleway {
+    font-family: Raleway, sans-serif;
   }
 
   .lg\:font-thin {
@@ -133789,6 +133807,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-raleway {
+    font-family: Raleway, sans-serif;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -164396,6 +164418,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-raleway {
+    font-family: Raleway, sans-serif;
   }
 
   .\32xl\:font-thin {
